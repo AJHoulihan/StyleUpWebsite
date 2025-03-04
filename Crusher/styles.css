@@ -1,0 +1,80 @@
+.body-class {
+    background-color: tan;
+    font-family: Arial, sans-serif;
+    line-height: 2.0;
+}
+
+.header-class {
+    background-color: teal;
+    color: maroon;
+    text-align: center;
+}
+
+.nav-class {
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-link-class {
+    color: black;
+}
+
+.title-class {
+    color: maroon;
+}
+
+.section-title-class {
+    color: midnightblue;
+
+}
+
+.text-class {
+    color: green;
+}
+
+.image-class {
+    border: 5px solid teal;
+    border-radius: 20px;
+}
+
+.form-class {
+    color: maroon;
+}
+
+.button-class {
+    color: teal;
+}
+
+.footer-class {
+    background-color: purple;
+    text-align: center;
+}
+
+#myFooter {
+    color: white;
+}
+
+.left {
+    padding: 20px;
+    float: left;
+    width: 20%;
+}
+
+.main {
+  padding: 20px;
+  float: left;
+  width: 60%;
+}
+
+.right {
+  padding: 20px;
+  float: left;
+  width: 20%;
+}
+
+@media screen and (max-width: 800px) {
+    .left, .main, .right, .image-class {
+      width: 100%;
+    }
+}
